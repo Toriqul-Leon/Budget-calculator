@@ -1,0 +1,41 @@
+/* !Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap");
+/*
+=============== 
+!Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* !Input Field */
+
+/*! Arrow removing (Chrome, Safari, Edge, Opera) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* !Arrow removing For Firefox */
+}
+
+input {
+  outline-color: rgba(0, 255, 255, 0.33);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+input::placeholder {
+  opacity: 0.3;
+}
+/* !End of Input Field */
